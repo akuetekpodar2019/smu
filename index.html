@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Web Visualization Dashboard</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+        <a class="navbar-brand" href="index.html">Comparison: Latitude vs. X</a>
+      </div>
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Visualizations <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="max_temperature.html">Latitude vs. Max Temperature</a></li>
+              <li><a href="humidity.html">Latitude vs. Humidity</a></li>
+              <li><a href="Cloudiness.html">Latitude vs. Cloudiness</a></li>
+              <li><a href="wind_speed.html">Latitude vs. Wind Speed</a></li>
+            </ul>
+          </li>
+          <li><a href="comparisons.html">Comparisons</a></li>
+          <li><a href="data.html">Data</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="container">
+
+    <div class="row">
+
+        <div class="col-md-6 pad top"> <br>
+          <h3>Visualizations</h3> <br>
+        </div>
+
+      </div>
+
+    <div class="row">
+
+        <div class="col-md-6 pad top"> <br>
+
+          <div class="pull-left">
+            <img src="Resources/assets/images/Latitude vs Temperature.png" alt="Latitude vs. Max Temperature" width="200" height="175">
+          </div>
+
+          <div class="text-left">
+            <p> The purpose of this project is to create a visualization dashboard website using visualizations from past assignment. Specifically, we'll be plotting weather data for a dashboard then create individual pages for each plot and a means by which we can navigate between them. These pages will contain the visualizations and their corresponding explanations. We'll also have a landing page, a page where we can see a comparison of all of the plots, and another page where we can view the data used to build them.
+            <p>To accomplish this, we will create a link to each visualization page. </p> <br>
+            <p> Four visualization-pages, each with:<br>
+                * A descriptive title and heading tag.<br>
+                * The plot/visualization itself for the selected comparison.<br>
+                * A paragraph describing the plot and its significance.. </p> <br>
+            <p> Additionally, we will create a responsive table containing the data used in the visualizations.
+                * The table must be a bootstrap table component.<br>
+            </p>
+              
+          </div>
+
+        </div>
+
+        <div class="col-md-3 pad top"> <br>
+
+          <div class="pull-right">
+            <a href="lat_temps.html"><img src="Resources/assets/images/Latitude vs Temperature.png" alt="Latitude vs. Max Temperature" width="100%" height="100%"></a>
+            <a href="lat_wind.html"><img src="Resources/assets/images/city latitude vs wind speed.png" alt="Latitude vs. Wind Speed" width="100%" height="100%"></a>
+          </div>
+
+       </div>
+
+       <div class="col-md-3 pad top"> <br>
+
+        <div class="pull-right">
+          <a href="lat_hum.html"><img src="Resources/assets/images/Latitude vs Speed.png" alt="Latitude vs. Humidity" width="100%" height="100%"></a>
+          <a href="lat_cloud.html"><img src="Resources/assets/images/Latitude vs Cloudiness.png" alt="Latitude vs. Cloudiness" width="100%" height="100%"></a>
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="row">
+
+      <div class="col-md-6 pad top"> <br>
+      </div>
+
+  </div>
+
+  </body>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  </html>
